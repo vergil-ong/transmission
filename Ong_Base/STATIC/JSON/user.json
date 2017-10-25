@@ -1,0 +1,37 @@
+{
+    "code": 200,
+    "msg": "测试信息",
+    "result": {},
+    "users": [
+        {
+            "id": "001",
+            "name": "test1",
+            "slug": "testSlug1",
+            "email": "123@123.com",
+            "mobile": "13312341234",
+            "officeId": "001",
+            "password":"123456"
+        },
+        {
+            "id": "002",
+            "name": "test2",
+            "slug": "testSlug2",
+            "email": "123@123.com",
+            "mobile": "13312341234",
+            "officeId": "001",
+            "password":"123456"
+        }
+    ],
+    "offices": [
+        {
+            "id": "001",
+            "name": "test2",
+            "parentId": "002"
+        },
+        {
+            "id": "002",
+            "name": "test2",
+            "parentId": ""
+        }
+    ]
+}

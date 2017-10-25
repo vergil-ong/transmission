@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<ResponseHeader>
+		<ResponseCode>200</ResponseCode>
+		<ResponseMessage>获取数据成功</ResponseMessage>
+	</ResponseHeader>
+	<ResponseBody>
+		<Users>
+			<User>
+				<userId>001</userId>
+				<name>test1</name>
+				<slug>testSlug1</slug>
+				<password>123456</password>
+				<email>123@123.com</email>
+				<mobile>13312341234</mobile>
+				<officeId>001</officeId>
+			</User>
+			<User>
+				<userId>002</userId>
+				<name>test2</name>
+				<slug>testSlug2</slug>
+				<password>123456</password>
+				<email>123@123.com</email>
+				<mobile>13312341234</mobile>
+				<officeId>001</officeId>
+			</User>
+		</Users>
+		<Departments>
+			<Department>
+				<id>001</id>
+				<name>test1</name>
+				<parentId>002</parentId>
+			</Department>
+			<Department>
+				<id>002</id>
+				<name>test2</name>
+				<parentId>002</parentId>
+			</Department>
+		</Departments>
+	</ResponseBody>
+</Response>
