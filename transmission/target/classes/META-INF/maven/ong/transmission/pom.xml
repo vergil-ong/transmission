@@ -31,6 +31,11 @@
 			<artifactId>httpmime</artifactId>
 			<version>4.3.5</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>fluent-hc</artifactId>
+			<version>4.3.5</version>
+		</dependency>
 		<!-- 日志组件 -->
 		<dependency>
 			<groupId>commons-logging</groupId>
@@ -43,6 +48,18 @@
 			<version>1.7.2</version>
 		</dependency>
 
+		<!-- beetl模板引擎 -->
+		<dependency>
+			<groupId>com.ibeetl</groupId>
+			<artifactId>beetl</artifactId>
+			<version>2.7.22</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.vergil-ong</groupId>
+			<artifactId>ong.base</artifactId>
+			<version>0.0.1</version>
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
