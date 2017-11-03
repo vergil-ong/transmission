@@ -601,24 +601,4 @@ public class HTTPSupportHelper {
 
 		return doRequest(url, httpPost, DEFAULTCHARSET, null, null, false, context);
 	}
-
-	/*public static void main(String[] args) {
-		
-		 * String url =
-		 * "https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code";
-		 * HttpGet get = new HttpGet(url); Map<String,Object> context = new
-		 * HashMap<String,Object>(); // context.put(REQUIRECOOKIE,
-		 * COOKIE_REQUIRE); doRequest(url, get, "UTF-8", null, null, true,
-		 * context);
-		 
-
-		String url = "https://api.weixin.qq.com/sns/oauth2/access_token";
-		Map<String, Object> context = new HashMap<String, Object>();
-		Map<String, Object> params = new HashMap<String, Object>();
-		params.put("appid", "APPID");
-		params.put("secret", "SECRET");
-		params.put("code", "CODE");
-		params.put("grant_type", "authorization_code");
-		doGet(url, params, context);
-	}*/
 }
